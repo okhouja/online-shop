@@ -1,26 +1,19 @@
 ul {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-
-  flex-direction: row;
-
-  // height: 2rem;
-  // width: 3rem;
+  padding-left: 1rem;
 }
-li:nth-child(2n) {
-  border: 2px black dotted;
-  flex-wrap: wrap;
+// li:nth-child(2n) {
+//   border: 2px black dotted;
+//   flex-wrap: wrap;
 
-  // flex-break: after;
-}
+//   // flex-basis: 50%;
+// }
 li {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex: 0 0 33.333333%;
   list-style: none;
-  height: 2rem;
-  width: 9rem;
+  height: 7rem;
+  width: 7rem;
 }
 button {
   background-color: lightblue;
