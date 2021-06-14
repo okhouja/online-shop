@@ -1,5 +1,26 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+  // height: 2rem;
+  // width: 3rem;
+}
+li:nth-child(2n) {
+  border: 2px black dotted;
+  flex-wrap: wrap;
+
+  // flex-break: after;
+}
 li {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   list-style: none;
+  height: 2rem;
+  width: 9rem;
 }
 button {
   background-color: lightblue;
