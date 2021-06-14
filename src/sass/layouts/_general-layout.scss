@@ -20,6 +20,10 @@ button {
   border-radius: 5%;
   border: none;
 }
+h1 {
+  color: cadetblue;
+  @include flex-center;
+}
 h5 {
   color: red;
 }
